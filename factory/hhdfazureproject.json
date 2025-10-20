@@ -1,0 +1,9 @@
+{
+	"name": "hhdfazureproject",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "aa0c626f-d706-4f1d-a86e-072d87cb4592",
+		"tenantId": "519206b0-0989-4ed9-a3a0-cd5f2a622eda"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "azure_sql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "hhazureprojectserver.database.windows.net",
+			"database": "HHAzureProjectServer",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "adminhh",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDA2RDRFODAxLUM5N0EtNDVGOS1CNjc0LURGMEFCODFGOTBGQ19iYmMyMGU2Ni1iZDY3LTQxMjAtYjU1Ni04NTc1MzhiMjk3YzEiDQp9"
+		}
+	}
+}
